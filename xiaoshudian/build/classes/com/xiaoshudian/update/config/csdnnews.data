@@ -1,0 +1,42 @@
+#线程池的大小
+thread_count@1
+#基础url
+base_url@http://news.csdn.net
+#分页
+page_suffix@/news/
+#最小页码
+min_page@1
+#最大页码
+max_page@1
+
+#siteName
+site_name@CSDN业界
+#siteUrl
+site_url@http://news.csdn.net/
+
+#title
+title@.content .left .news .unit h1 a
+title_pos@*
+title_attr@text
+
+#url
+url@.content .left .news .unit h1 a
+url_pos@*
+url_attr@href
+
+#content
+table@spider_article
+
+content@.wrap .content .left .detail .news_content
+content_pos@0
+
+author@.wrap .content .left .detail .tit_bar .ago
+author_pos@1
+author_prefix@作者 
+
+time@.wrap .content .left .detail .tit_bar .ago
+time_pos@0
+time_format@yyyy-MM-dd HH:mm
+
+tag@.wrap .content .left .detail .tag
+tag_pos@0

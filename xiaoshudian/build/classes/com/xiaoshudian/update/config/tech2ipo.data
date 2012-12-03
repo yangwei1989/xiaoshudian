@@ -1,0 +1,42 @@
+#线程池的大小
+thread_count@1
+#基础url
+base_url@http://tech2ipo.com
+#分页
+page_suffix@/all/
+#最小页码
+min_page@1
+#最大页码
+max_page@1
+
+#siteName
+site_name@TECH2IPO
+#siteUrl
+site_url@http://tech2ipo.com/
+
+#title
+title@.article_info header h3 a
+title_pos@*
+title_attr@text
+
+#url
+url@.article_info header h3 a
+url_pos@*
+url_attr@href
+
+#content
+table@spider_article
+
+content@.page_content #article_post .article_info .article_info_content
+content_pos@0
+
+author@#article_post .article_info .viewpoint .article_extend .the_author
+author_pos@0
+author_prefix@作者 
+
+time@#article_post .article_info .viewpoint .article_extend p
+time_pos@1
+time_prefix@发布于
+
+tag@#ct .neirong .other .z .new-tag
+tag_pos@0
